@@ -99,7 +99,7 @@ export default function OnboardingScreen() {
 
       <div className="fixed inset-0 z-20 flex flex-col items-center justify-center">
         <div className="pointer-events-auto flex flex-col items-center justify-center">
-          <h1 className="mb-4 px-4 text-center text-[clamp(0.95rem,4.2vw,1.2rem)] leading-tight font-semibold whitespace-nowrap text-white drop-shadow-[0_2px_18px_rgba(0,0,0,0.45)] sm:text-2xl md:text-3xl lg:text-4xl">
+          <h1 className="mb-4 px-4 text-center text-[clamp(1.05rem,4.6vw,1.3rem)] leading-tight font-semibold whitespace-nowrap text-white drop-shadow-[0_2px_18px_rgba(0,0,0,0.45)] sm:text-2xl md:text-3xl lg:text-4xl">
             {isReducedMotion ? (
               'The Customer Activation API'
             ) : (
