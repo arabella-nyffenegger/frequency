@@ -78,13 +78,6 @@ export default function OnboardingScreen() {
               Home
             </Link>
             <a
-              href="#research"
-              className="flex min-h-[44px] items-center py-2 text-sm text-gray-900 transition-colors hover:text-gray-600 sm:text-base"
-              onClick={() => setIsMenuVisible(false)}
-            >
-              Research
-            </a>
-            <a
               href="mailto:a@learningfrequency.com"
               className="flex min-h-[44px] items-center py-2 text-sm text-gray-900 transition-colors hover:text-gray-600 sm:text-base"
               onClick={() => setIsMenuVisible(false)}
@@ -129,14 +122,6 @@ export default function OnboardingScreen() {
         </div>
       </div>
 
-      <section id="research" className="relative z-10 mx-auto mt-[110vh] max-w-4xl px-6 pb-24">
-        <div className="rounded-2xl bg-white/10 p-8 text-white backdrop-blur-md">
-          <h2 className="text-2xl font-semibold">Research</h2>
-          <p className="mt-3 text-white/90">
-            Frequency helps teams turn customer engagement into measurable activation outcomes.
-          </p>
-        </div>
-      </section>
     </div>
   );
 }
